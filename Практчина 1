@@ -1,0 +1,20 @@
+# Robota1
+Практична 1
+#include <stdio.h>
+
+int main() {
+    int t1, t2, t3;
+    float total_time, time;
+
+    // Зчитуємо значення t1, t2, t3
+    scanf("%d %d %d", &t1, &t2, &t3);
+
+    // Обчислюємо загальний час, який потрібен гостям
+    total_time = t1 +   t2 +   t3;
+    time =  total_time / 3 ;
+
+    // Виводимо результат з округленням до 2 знаків після коми
+
+    printf(" time: %.2f\n",  time);
+    return 0;
+}
